@@ -6,7 +6,7 @@ console.log("Starting Express Server...");
 
 
 app.get("/", (req, res) => {
-  res.send({ message: "Hello, Express!" });
+  res.send({ message: "Assalamvalaikum" });
 });
 
 app.listen(PORT, () => {
